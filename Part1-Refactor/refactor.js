@@ -1,12 +1,12 @@
 import Data from "./config.js";
 import createElement from "./createElements.js";
-import weekdays from "./weekdays.js";
 const searchBar = document.querySelector('#searchBar');
 const container = document.querySelector(".container");
 const cityNameContainer = document.querySelector('.city-name');
 
 
 
+const weekdays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 // Event will start on a keyup action
 searchBar.addEventListener('keyup', (event) => {
@@ -46,11 +46,11 @@ searchBar.addEventListener('keyup', (event) => {
                                     const data = result.daily[i];
 
                                     // Create the elements with Data
-                                    
-                                    const card = document.createElement('div');
+                                    /* const card = document.createElement('div');
                                     card.classList.add("card");
-                                    container.appendChild(card);
+                                    container.appendChild(card); */
 
+                                    const card = createElement("div", "card", container);
 
 
                                     const imageBox = document.createElement('div');
