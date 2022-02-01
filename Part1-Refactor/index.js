@@ -4,6 +4,7 @@ import resetWeather from "../modules/resetWeather.js";
 import globalVariables from "../modules/globalVariables.js";
 import createElementCards from "../modules/createElementCards.js";
 import regularFluff from "../modules/createElement.js";
+import keyupEventEnter from "../modules/keyupEventEnter.js";
 
 // import createElementCards from "../modules/createElementCards.js";
 // Event will start on a keyup action
@@ -62,3 +63,6 @@ fetch(apiUrl)
 let z = regularFluff ("div", "yooo", globalVariables.container);
 console.log(globalVariables.container);
 console.log(z);
+
+
+// TODO: create most basic event listener in a module
