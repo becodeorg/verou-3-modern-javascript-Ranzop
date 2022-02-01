@@ -3,11 +3,10 @@ import weekdays from "../modules/weekdays.js";
 import resetWeather from "../modules/resetWeather.js";
 import globalVariables from "../modules/globalVariables.js";
 import createElementCards from "../modules/createElementCards.js";
+import regularFluff from "../modules/createElement.js";
+
 // import createElementCards from "../modules/createElementCards.js";
 // Event will start on a keyup action
-
-
-
 globalVariables.searchBar.addEventListener('keyup', (event) => {
 
 // checking the action for specific key (Enter)
@@ -59,3 +58,7 @@ fetch(apiUrl)
     });
 };
 });
+
+let z = regularFluff ("div", "yooo", globalVariables.container);
+console.log(globalVariables.container);
+console.log(z);
