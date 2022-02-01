@@ -1,4 +1,5 @@
-import Data from "./config.js";
+/* import Data from "./config.js";
+import createElement from "../modules/createElements.js";
 
 const searchBar = document.querySelector('#searchBar');
 const container = document.querySelector(".container");
@@ -25,9 +26,7 @@ const createImg = (element, cssClass, src, alt, parent) => {
     return (y);
 }
 
-
-console.log('"http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"');
-
+   
 const createDay = (result, i) => {
     // Use the remainder operator (%) to switch from saturday (last in array) back to sunday (first in array)
     const date = new Date();
@@ -79,6 +78,11 @@ const createDay = (result, i) => {
     maxTemp.innerHTML = data.temp.max + "°C";
 }
 
+
+console.log('"http://openweathermap.org/img/wn/" + data.weather[0].icon + "@2x.png"');
+
+
+
 // Event will start on a keyup action
 searchBar.addEventListener('keyup', (event) => {
 
@@ -124,4 +128,4 @@ searchBar.addEventListener('keyup', (event) => {
                 return alert("Are you sure you aren't holding your map upside down?");
             });
     };
-});
+}); */
