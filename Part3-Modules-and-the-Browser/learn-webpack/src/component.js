@@ -1,4 +1,4 @@
-export default (text = "fsdhxdgsdgdfsdfdsgsegubaiqfbc") => {
+export default (text = "phanpf") => {
     const element = document.createElement("h1");
     console.log('fzebiumbDBUFIZBIUBFUIZEBF');
 
