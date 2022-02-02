@@ -64,5 +64,6 @@ let z = regularFluff ("div", "yooo", globalVariables.container);
 console.log(globalVariables.container);
 console.log(z);
 
-
+let x = new String("hello");
+console.log (x);
 // TODO: create most basic event listener in a module
