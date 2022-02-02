@@ -1,5 +1,7 @@
-export default (text = "boss rat") => {
+export default (text = "fsdhxdgsdgdfsdfdsgsegubaiqfbc") => {
     const element = document.createElement("h1");
+    console.log('fzebiumbDBUFIZBIUBFUIZEBF');
+
   
     element.innerHTML = text;
   

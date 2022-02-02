@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _com
   \**************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((text = \"boss rat\") => {\r\n    const element = document.createElement(\"h1\");\r\n  \r\n    element.innerHTML = text;\r\n  \r\n    return element;\r\n  });\n\n//# sourceURL=webpack://learn-webpack/./src/component.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((text = \"fsdhxdgsdgdfsdfdsgsegubaiqfbc\") => {\r\n    const element = document.createElement(\"h1\");\r\n    console.log('fzebiumbDBUFIZBIUBFUIZEBF');\r\n\r\n  \r\n    element.innerHTML = text;\r\n  \r\n    return element;\r\n  });\n\n//# sourceURL=webpack://learn-webpack/./src/component.js?");
 
 /***/ })
 
