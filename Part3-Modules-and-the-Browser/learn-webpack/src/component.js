@@ -1,9 +1,10 @@
 export default (text = "phanpf") => {
-    const element = document.createElement("h1");
-    console.log('fzebiumbDBUFIZBIUBFUIZEBF');
+  const element = document.createElement("h1");
+  console.log('fzebiumbsexBIUBFUIZEBF');
 
-  
-    element.innerHTML = text;
-  
-    return element;
-  };
+ 
+
+  element.innerHTML = text;
+
+  return element;
+};
