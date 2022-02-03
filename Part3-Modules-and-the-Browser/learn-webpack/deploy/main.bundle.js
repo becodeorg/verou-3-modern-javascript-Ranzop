@@ -26,7 +26,7 @@ eval("\n\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\n\n
   \********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n/* harmony import */ var luxon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! luxon */ \"./node_modules/luxon/build/cjs-browser/luxon.js\");\n\r\n\r\n\r\n\r\nconst dt = luxon__WEBPACK_IMPORTED_MODULE_1__.DateTime.local(2020, 2, 27, 1, 30);\r\nconsole.log(dt);\r\n\r\ndocument.body.appendChild((0,_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n\r\n\r\n// npm run from the src file!!!\r\n\r\n\n\n//# sourceURL=webpack://learn-webpack/./src/app.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./component */ \"./src/component.js\");\n/* harmony import */ var luxon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! luxon */ \"./node_modules/luxon/build/cjs-browser/luxon.js\");\n\r\n\r\n\r\n\r\nconst dt = luxon__WEBPACK_IMPORTED_MODULE_1__.DateTime.fromObject({day: 22, hour: 12}, {zone: 'America/Los_Angeles', numberingSystem: 'beng'});\r\nconsole.log(dt);\r\ndocument.body.appendChild((0,_component__WEBPACK_IMPORTED_MODULE_0__[\"default\"])());\r\n\r\n\r\n// npm run from the src file!!!\r\n\r\n\n\n//# sourceURL=webpack://learn-webpack/./src/app.js?");
 
 /***/ }),
 

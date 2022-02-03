@@ -2,9 +2,8 @@ import component from './component';
 import { DateTime } from "luxon";
 
 
-const dt = DateTime.local(2020, 2, 27, 1, 30);
+const dt = DateTime.fromObject({day: 22, hour: 12}, {zone: 'America/Los_Angeles', numberingSystem: 'beng'});
 console.log(dt);
-
 document.body.appendChild(component());
 
 
